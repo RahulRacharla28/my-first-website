@@ -4,21 +4,42 @@
   font-family: Arial, sans-serif;
   padding: 20px;
   text-align: center;
+}
 
+html {
+    front-size: 16px;
 }
 
 h1 {
   color: blue;
+  front-size: 2.5rem;
   text-align: center;
 }
 
 img {
   border-radius: 10px;
-  width: 200px;
+  width: 10rem;
   border: 2px solid #0f0f0f;
   box-shadow: 10px 10px 20px rgba(5,5,5,0.5);
 
 }
+
+ a.youtube-link {
+  text-decoration: none;
+  color: white;
+  background-color: teal;
+  padding: 8px 15px;
+  margin: 10px 20px;
+  border: 2px solid teal;
+  border-radius: 5px;
+}
+
+a.youtube-link:hover {
+  background-color: darkcyan;
+  color: yellow;
+}
+
+
 
 .container {
   width: 80%;
@@ -44,3 +65,29 @@ a {
   border-radius: 5px;
   display: inline-block;
 }
+
+footer {
+  background-color: #222;
+  color: white;
+  text-align: center;
+  padding: 20px 0;
+  margin-top: 40px;
+}
+
+footer a {
+  color: lightblue;
+  text-decoration: none;
+  margin-left: 5px;
+}
+
+footer a:hover {
+  text-decoration: underline;
+}
+
+#main-heading {
+  color: purple;
+  font-size: 36px;
+  text-shadow: 2px 2px 5px gray;
+}
+
+ 
