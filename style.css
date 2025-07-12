@@ -7,17 +7,17 @@
 }
 
 html {
-    front-size: 16px;
+    font-size: 16px;
 }
 
 h1 {
   color: blue;
-  front-size: 2.5rem;
+  font-size: 2.5rem;
   text-align: center;
 }
 
 img {
-  width: 100%auto;
+  width: 100%;
   max-width: 300px;
   height: auto;
   border-radius: 10px;
@@ -121,7 +121,7 @@ footer a:hover {
     align-items: center;
     justify-content: center;
     gap: 20px;
-    margin-tap: 20px
+    margin-top: 20px
 
 }
 
@@ -130,7 +130,7 @@ footer a:hover {
     margin: auto;
     padding: 20px;
     text-align: center;
-    line-hight: 1.6;
+    line-height: 1.6;
 }
 
 .about-container .text,
@@ -214,3 +214,8 @@ footer a:hover {
   }
 }
 
+@media (max-width: 768px) {
+    h2 {
+        font-size: 1.3rem;
+    }
+}
